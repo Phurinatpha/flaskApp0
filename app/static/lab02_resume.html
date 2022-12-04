@@ -6,47 +6,89 @@ lab02 204212 sec001 -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="static/css/resume.css">
   <title>Phurinat 's resume</title>
 </head>
 <body>
-  <div style="width: 80%;margin: auto;border: 2px solid black;background-color: white">
-    <div>
-      <table style="width:100%;">
-          <tr>
-            <td style="width: 25%;"><img src="static/img/profile_pic.jpg" style="width:75%;margin-left: 13%;margin-top: 10%;"></td>
-            <td style="width: 75%;">
-              <h1 style="margin-left: 5%;margin-right: 3%;">Phurinat Phanuphongsakun</h1>
-              <p style="margin-left: 5%;margin-right: 3%;">Computer Science Student</p>
-              <p style="margin-left: 5%;margin-right: 3%;">Chaingmai University</p>
-              <p style="margin-left: 5%;margin-right: 3%;">Student ID: 640510676</p>
-            </td>
-          </tr>
-      </table>
+  <div class="frame">
+    <div style="text-align: start;margin-left: 5%;margin-top: 2%;">
+      <h1 style="margin-top: 1.5%;">Phurinat Phanuphongsakun</h1>
+      <h3>Computer Science, Chiangmai University</h3>
+      <h3>ID: 640510676</h3>
+      
     </div>
-    <div style="margin-left: 5%;margin-right: 5%;">
-      <h2>Contract</h2>
+    <div class="header">
+      <h2>Education</h2>
+      <div style="margin-left: 3%;">
+        <p>Bachelor of Science, Computer Science</p>
+        <p>Chiangmai University</p>
+        <p>2021 - Now</p>
+        <p>GPA : 3.48 (3/8 Semester)</p>
+      </div>
+    </div>
+    <div class="header">
+      <h2>Contact</h2>
       <table style="width: 100%;margin-left: 3%;margin-right: 3%;">
           <tr>
             <td> 
-              <img src="static/img/GitHub-black.png" style="width: 22px;;margin-left: 10%;margin-top: 10%;">
+              <img src="static/img/GitHub-black.png" style="width: 22px;;margin-left: 5%;margin-top: 10%;">
             </td>
-            <td><a href="https://github.com/Phurinatpha">github.com/Phurinatpha</a></td>
+            <td><a href="https://github.com/Phurinatpha" target="_blank" rel="noopener noreferrer">Github.com/Phurinatpha</a></td>
             <td><span style='font-size:25px;'>&#9993;</span></td>
             <td><a href="mailto:phurinat_phanuphong@cmu.ac.th">phurinat_phanuphong@cmu.ac.th</a></td>
           </tr>
           <tr>
-            <td><img src="static/img/facebook.png" style="width: 22px;;margin-left: 10%;margin-top: 10%;"></td>
-            <td><a href="https://www.facebook.com/profile.php?id=100006122051062">Purinat Panupongsakul</a></td>
+            <td><img src="static/img/facebook.png" style="width: 22px;;margin-left: 5%;margin-top: 10%;"></td>
+            <td><a href="https://www.facebook.com/profile.php?id=100006122051062" target="_blank" rel="noopener noreferrer">Purinat Panupongsakul</a></td>
             <td><span style='font-size:20px;'>&#128222;</span></td>
-            <td><p>(+66) 93-171-9410</p></td>
+            <td><p><a href="tel:0931719410">(+66) 93-171-9410</a></p></td>
           </tr>
       </table>
     </div>
-    <div>
-      <h2 style="margin-left: 5%;margin-right: 5%;">Skill/Competition Experience</h2>
+    <div style="margin-top: 1%;" class="header">
+      <table border="0" cellpadding="0" cellspacing="0" style="width:90%;">
+          <tr>
+            <td style="width:50%;">
+              <h2 style="margin-top: 0px;">Technical Skill</h2>
+              <div style="margin-left: 3%;">              
+                <uL>
+                  <li class="lispace">Python</li>
+                  <li class="lispace">C/C++</li>
+                  <li class="lispace">Java/Kotlin</li>
+                  <li class="lispace">HTML/CSS</li>  
+                </ul>
+              </div>
+            </td>
+            <td style="width:50%;">
+              <h2 style="margin-top: 0px;">Soft Skill</h2>
+              <div>              
+                <ul>
+                  <li class="lispace">Quick learning</li>
+                  <li class="lispace">Problem Solving</li>
+                  <li class="lispace">Adaptability</li>
+                  <li class="lispace">Collaboration</li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+      </table>
+    </div>
+    <div class="header">
+      <h2 >Competitive Experience</h2>
+      <div style="margin-left: 1%;">
+        <ol type="1">
+          <li class="lispace"><a href="https://cmu.to/Np54a" target="_blank" rel="noopener noreferrer">CP-Lotus Hackathon : Technology Solutions for Retail Business</a></li>
+          <li class="lispace"><a href="https://cmu.to/s0Z9Q" target="_blank" rel="noopener noreferrer">IEEEXtreme2022 Competitive Programming</a></li>
+        </ol>
+      </div>
+    </div>
+    <div class="header" >
+      <h2 >Midterm Exam Schedule</h2>
+      <iframe src="static/calendar.html"></iframe>
     </div>
   </div>
+
 </body>
 </html>
 
