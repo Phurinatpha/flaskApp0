@@ -22,3 +22,8 @@ def data():
 @app.route('/lab02')
 def resume():
     return app.send_static_file('lab02_resume.html')
+
+
+@app.route('/lab')
+def resu():
+    return app.send_static_file('lab02_resume_m.html')
