@@ -1,0 +1,29 @@
+[
+    {
+        "firstname": "สมชาย",
+        "lastname": "ทรงแบด",
+        "phone": "081 123 4567",
+        "postcode": "50270",
+        "subdist": "บ้านทับ",
+        "district": "แม่แจ่ม",
+        "province": "เชียงใหม่"
+    },
+    {
+        "firstname": "asdasd",
+        "lastname": "asdasd",
+        "phone": "12",
+        "postcode": "123",
+        "subdist": "sadasd",
+        "district": "asdasasdasd",
+        "province": "asdasd"
+    },
+    {
+        "firstname": "puri",
+        "lastname": "nat",
+        "phone": "12345",
+        "postcode": "56130",
+        "subdist": "",
+        "district": "",
+        "province": ""
+    }
+]
